@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- res/drawable/boton_personalizado.xml -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <shape>
+            <solid android:color="#86E2EA" /> <!-- Cambia este valor al color cuando se presiona -->
+            <corners android:radius="10dp" />
+            <stroke android:color="#86E2EA" android:width="2dp" /> <!-- Color y ancho del borde -->
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <solid android:color="#63C2CA" /> <!-- Cambia este valor al color normal -->
+            <corners android:radius="10dp" /> <!-- Ajusta el radio según el redondeo que desees -->
+            <stroke android:color="#63C2CA" android:width="2dp" /> <!-- Color y ancho del borde -->
+        </shape>
+    </item>
+</selector>
